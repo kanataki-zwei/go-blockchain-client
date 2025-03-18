@@ -1,0 +1,21 @@
+# Ignore Terraform local state
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+
+# Ignore compiled Go binaries
+blockchain-client
+
+# Ignore Go dependencies cache
+bin/
+pkg/
+vendor/
+
+# Ignore system files
+.DS_Store
+*.log
+*.swp
+
+# Ignore environment files
+.env
